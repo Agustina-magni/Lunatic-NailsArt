@@ -1,0 +1,149 @@
+.footer-container {
+    background-color: #D399C5;
+    color: #ffffff;
+    padding: 60px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  /* 3 columnas principales */
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1 1 250px;
+    min-width: 200px;
+  }
+  
+  .footer-column h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .footer-column p {
+    font-size: 0.95rem;
+    margin: 4px 0;
+    color: #ffffff;
+  }
+  
+  .footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column a:hover {
+    color: #287F53;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 1.4rem;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #287F53;
+    transform: translateY(-2px);
+  }
+  
+  /* Newsletter */
+  .footer-newsletter {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 0 20px;
+  }
+  
+  .footer-newsletter p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 0.95rem;
+    outline: none;
+    width: 60%;
+    max-width: 300px;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #287F53;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #1e6141;
+  }
+  
+  /* Línea divisoria + copyright */
+  hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 30px auto 20px;
+    width: 80%;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+    }
+  
+    .newsletter-form input,
+    .newsletter-form button {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
