@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import banner from '../assets/fondo-grande-nails.webp';
-import unasImg from '../assets/card-uñas.jpg';
+import unasImg from '../assets/card-unas.jpg';
 import pestanasImg from '../assets/card-lashes.jpg';
 import citaImg from '../assets/card-Citas.jpg';
 
